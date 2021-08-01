@@ -1,0 +1,15 @@
+BROWSER-JS
+
+1.Javascript is a programming language that is used for writing scripts on the website.
+2.	It is basically used on the client-side
+3.Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.
+4.Javascript is used in frontend development.
+5.Javascript is capable enough to add HTML and play with the DOM.
+
+NODEJS
+
+1.NodeJS is a Javascript runtime environment.
+2.It is mostly used on the server-side.
+3.Nodejs can only run in V8 engine of google chrome.
+4.Nodejs is used in server-side development.
+5.Nodejs does not have capability to add HTML tags.

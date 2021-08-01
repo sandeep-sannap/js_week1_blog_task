@@ -1,0 +1,43 @@
+HTTP 0.9: The One-Line Protocol
+
+The original HTTP proposal by Tim Berners-Lee was designed with simplicity in mind as to help with the adoption of his other nascent idea: the World Wide Web. 
+
+Simple prototype was built, which implemented a small subset of the proposed functionality:
+
+   1. Client request is a single ASCII character string.
+
+    2.Client request is terminated by a carriage return (CRLF).
+
+    3.Server response is an ASCII character stream. 
+
+    4.Server response is a hypertext markup language (HTML).
+
+    5.Connection is terminated after the document transfer is complete. 
+
+
+
+HTTP/1.0: Rapid Growth and Informational RFC
+
+The period from 1991 to 1995 is one of rapid coevolution of the HTML specification, a new breed of software known as a "web browser," and the emergence and quick growth of the consumer-oriented public Internet infrastructure
+
+The preceding exchange is not an exhaustive list of HTTP/1.0 capabilities, but it does illustrate some of the key protocol changes:
+
+    Request may consist of multiple newline separated header fields.
+
+    Response object is prefixed with a response status line.
+
+    Response object has its own set of newline separated header fields.
+
+    Response object is not limited to hypertext.
+
+    The connection between server and client is closed after every request. 
+
+
+HTTP/1.1: Internet Standard
+
+The HTTP/1.1 standard resolved a lot of the protocol ambiguities found in earlier versions and introduced a number of critical performance optimizations: keepalive connections, chunked encoding transfers, byte-range requests, additional caching mechanisms, transfer encodings, and request pipelining.
+
+
+HTTP/2: Improving Transport Performance
+
+The primary focus of HTTP/2 is on improving transport performance and enabling both lower latency and higher throughput. The major version increment sounds like a big step, which it is and will be as far as performance is concerned, but it is important to note that none of the high-level protocol semantics are affected: all HTTP headers, values, and use cases are the same
